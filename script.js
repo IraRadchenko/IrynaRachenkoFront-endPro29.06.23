@@ -5,10 +5,11 @@
 let firstName = prompt('Ваше ім`я?');
 let lastName = prompt('Ваше прізвище?');
 let city = prompt('Ваше місто?');
-alert('Вітаю, '+firstName+' '+lastName+'! Ваше місто '+city+'.');
+alert('Вітаю, ' + firstName + ' ' + lastName + '! Ваше місто ' + city + '.');
 
 //завдання 2
 
 let name = prompt('Ваше ім`я?');
 let age = prompt('Ваш вік?');
-alert(`Вітаю, ${name}! \nВаш вік ${age}.`);
+alert(`Вітаю, ${name}! 
+Ваш вік ${age}.`);
