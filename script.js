@@ -66,7 +66,7 @@ console.log(arithmeticMean);
 let summ2 = 0;
 
 for (let i = 30; i <= 80; i++) {
-    if (i % 2 == 0) {
+    if (i % 2 === 0) {
         summ2 = summ2 + i;
     }
 }
@@ -78,7 +78,7 @@ console.log(summ2);
 let str8 = '';
 
 for (let i = 100; i <= 200; i++) {
-    if (i % 3 == 0) {
+    if (i % 3 === 0) {
         str8 += i + ', ';
     }
 }
@@ -93,10 +93,10 @@ let div1 = 0;
 let summ10 = 0;
 
 for (let i = 1; i <= naturalNum; i++) {
-    if (naturalNum % i == 0) {
+    if (naturalNum % i === 0) {
         div += i + ', ';
         //10 Визначити кількість його парних дільників.
-        if (i % 2 == 0) {
+        if (i % 2 === 0) {
             div1++ ;
             //11 Знайти суму його парних дільників.
             summ10 = summ10 + i;
