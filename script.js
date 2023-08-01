@@ -4,9 +4,11 @@
 let str1 = '';
 
 for (let i = 10; i <= 20; i++) {
-    if (i === 20)
+    if (i === 20) {
         str1 += i;
-    else str1 += i + ', ';
+    } else {
+        str1 += i + ', ';
+    }
 }
 
 console.log(str1);
