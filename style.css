@@ -1,0 +1,11 @@
+#dynamicTable{
+    margin: 0 auto;
+}
+#dynamicTable,
+#dynamicTable tr,
+#dynamicTable td {
+     border: 1px solid blue;
+     border-collapse: collapse;
+     text-align: center;
+    background-color: #cccccc;
+ }
